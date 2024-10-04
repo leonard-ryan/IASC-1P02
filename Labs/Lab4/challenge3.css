@@ -1,0 +1,17 @@
+.overall{
+  background-color: green;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: purple;
+}
+.dashed{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: black 3px dotted;
+}
+.firstbox{
+  color: red;
+}
+.secondbox{
+  color: #006000;
+}
