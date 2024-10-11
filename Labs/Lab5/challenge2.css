@@ -1,0 +1,43 @@
+body{
+  background-color: green;
+}
+p{
+  font-weight: bold;
+  font-size: 16px;
+}
+#wrapper{
+  width: 750px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: white
+}
+#header{
+  background-color: red;
+  height: 100px;
+  text-align: center;
+}
+#leftbody{
+  float: left;
+  height: 60px;
+  background-color: pink;
+  width: 200px;
+}
+#rightbody{
+  float: left;
+  height: 60px;
+  background-color: orange;
+  width: 550px;
+}
+#content{
+  float: left;
+  height: 400px;
+  width: 750px;
+  background-color: blue;
+  clear: both;
+}
+#footer{
+  height: 40px;
+  width: 750px;
+  background-color: yellow;
+  clear: both;
+}

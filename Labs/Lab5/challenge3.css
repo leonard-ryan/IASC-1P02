@@ -1,0 +1,38 @@
+body{
+  width: 1000px;
+  height: 600px;
+}
+#backdrop{
+  background-color: green;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+#box1{
+  position: absolute;
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  left: 150px;
+  top: 30px;
+}
+#box2{
+  position: absolute;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  left: 650px;
+  top: 30px;
+}
+#box3{
+  position: absolute;
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  left: 400px;
+  top: 230px;
+}
+#text3{
+  position: relative;
+  bottom: 15px;
+}
