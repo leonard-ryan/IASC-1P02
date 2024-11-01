@@ -1,0 +1,26 @@
+/* Primary Blue #0795D3 */
+/* Secondary Blue #3FB6EA */
+/* Maroon #990100 */
+
+.wrapper{
+
+}
+
+.header{
+  background-color: #0795D3;
+  color: white;
+}
+
+.menu{
+  background-color: #990100;
+  color: white;
+}
+
+.footer{
+  background-color: #0795D3;
+  color: white;
+}
+
+#logo{
+
+}
