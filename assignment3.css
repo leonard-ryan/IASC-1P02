@@ -1,0 +1,146 @@
+/* Navy 151854 */
+/* Teal 3eb8ab */
+
+
+#Header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  z-index: 99;
+  background-color: #151854;
+  font-family: arial;
+  font-size: 18px;
+  color: white;
+}
+
+#logo{
+  height: 70px;
+  position: fixed;
+  left: 20px;
+  top: 10px;
+}
+
+#Links {
+  position: fixed;
+  top: 36px;
+  right: 10px;
+  justify-content: space-evenly;
+}
+
+#Links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+#Links a:hover {
+  color: #3eb8ab;
+}
+
+#wrapper{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 90px;
+}
+
+#secondary{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+#secondary img{
+  width: 100%;
+  z-index: 1;
+}
+#secondary h1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+#memberlink{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 40px;
+  background-color: #3eb8ab;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#memberlink a{
+  font-family: arial;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+#memberlink a:hover {
+  color: #151854;
+}
+
+#third{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+#third p{
+  font-size: 12px;
+  font-family: Arial;
+}
+
+.box{
+  margin-top: 50px;
+
+  border: 2px #151854 solid;
+  width: 350px;
+  padding: 5px 5px 5px 5px;
+}
+.box img{
+  width: 100%;
+}
+.box h2{
+  text-align: center;
+  color: #151854;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#footer{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #151854;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 600px;
+  padding-top: 50px;
+  font-family: arial;
+}
+.footerbox{
+  width: 200px;
+  text-align: center;
+}
+.footerbox a{
+  color: white;
+  text-decoration: none;
+}
+.footerbox img{
+  width: 20px;
+}
