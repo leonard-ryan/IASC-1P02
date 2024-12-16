@@ -1,0 +1,160 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="PWHL Fantasy" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>PWHL Fantasy - Teams</title>
+		<link href="pwhl.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+    <div class="header">
+        <h1>PWHL Fantasy League</h1>
+		</div>
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="rules.html">Rules</a>
+        <a href="standings.html">Standings</a>
+        <a href="statistics.html">Statistics</a>
+    </div>
+		<div class="title_header">
+			<img src="title.png" alt="Photo of Taylor Heise's Skates as she is introduced to the crowd" />
+			<h2 class="title_name">Rules</h2>
+		</div>
+		<div class="container">
+        <div class="main">
+            <section class="rules_text">
+							<p>The league operates on a head-to-head matchup system. This is a 4-team league which matchups between the 4 in each “week”. A week is not determined by a true calendar week but has been split into 10 weeks to best spread out the PWHL schedule on number of games and natural timeframes. The first 9 weeks will be the regular season where every fantasy team plays each other 3 times, and the final week will be the Playoff Final with the 2 best performing teams matching up for the championship and the bottom 2 competing for 3rd place.</p><br />
+			        <p>Each fantasy team is to consist of 11 players. The owner has discretion to have these players fill in any positions however the scoring system will take the best 6 forward scores, 3 defender scores, and best goalie score. This suggests the average owner will follow the 6, 3, 1 roster format with 1 spare player in any of the positions, however they are not limited to doing so. </p><br /><p>If a player is placed on Long Term Injured Reserve (LTIR) by their PWHL team, the fantasy owner will have the option to place them on fantasy Injured Reserve if there is no one currently filling the spot. Every fantasy team can have up to 1 player on IR. Any player on IR does not count to the normal roster limit but will not be scored in the overall matchup score even if they did return to play in the middle of the game week. Owners can pick up players not currently on any other fantasy team through the waiver process.</p><br /><p> Once the first game of the game week starts the rosters are set for the week and all waiver claims or trades will be completed for the following game week. The waiver priority order begins following the draft in reverse draft order. This means the owner with the last pick in the first round will have the highest priority order in the waiver wire. The priority system is only used if multiple owners make a claim on the same player. If multiple owners make a claim on the same player, whichever one has the higher priority will get the player. After making a claim, whether anyone else made the same claim or not, the owner’s priority will drop down to the bottom of the list.</p>
+						</section>
+						<section id="7" class="matchups-container">
+							<div class="points_tables">
+								<p>The scoring system for players is listed as follows:</p>
+						    <table class="table_rules">
+						        <thead>
+						            <tr>
+						                <th>Action</th>
+						                <th>Points</th>
+						            </tr>
+						        </thead>
+						        <tbody>
+						            <tr>
+						                <td>Goals</td>
+						                <td>3</td>
+						            </tr>
+						            <tr>
+						                <td>Assists</td>
+						                <td>2</td>
+						            </tr>
+						            <tr>
+						                <td>Shots on Goal</td>
+						                <td>0.5</td>
+						            </tr>
+						            <tr>
+						                <td>Hits</td>
+						                <td>0.5</td>
+						            </tr>
+						            <tr>
+						                <td>Plus Minus</td>
+						                <td>0.5</td>
+						            </tr>
+						            <tr>
+						                <td>Blocked Shots</td>
+						                <td>0.5</td>
+						            </tr>
+						            <tr>
+						                <td>PP Points</td>
+						                <td>0.5</td>
+						            </tr>
+						            <tr>
+						                <td>SH Points</td>
+						                <td>1</td>
+						            </tr>
+						        </tbody>
+						    </table>
+							</div>
+							<div class="points_tables">
+								<p>The scoring system for goalies is listed as follows:</p>
+								<table class="table_rules">
+										<thead>
+												<tr>
+														<th>Action</th>
+														<th>Points</th>
+												</tr>
+										</thead>
+										<tbody>
+												<tr>
+														<td>Saves</td>
+														<td>0.2</td>
+												</tr>
+												<tr>
+														<td>Wins</td>
+														<td>2</td>
+												</tr>
+												<tr>
+														<td>Shutouts</td>
+														<td>1</td>
+												</tr>
+												<tr>
+														<td>Goals Against</td>
+														<td>-1</td>
+												</tr>
+										</tbody>
+								</table>
+							</div>
+
+						</section>
+        </div>
+
+        <aside class="sidebar">
+            <section class="calculator">
+							<h3>Fantasy Points Calculator</h3>
+							<div class="form-group">
+									<label for="goals">Goals:</label><br />
+									<input type="number" id="goals" placeholder="Enter Goals" />
+							</div>
+							<div class="form-group">
+									<label for="assists">Assists:</label><br />
+									<input type="number" id="assists" placeholder="Enter Assists" />
+							</div>
+							<div class="form-group">
+									<label for="shots">Shots:</label><br />
+									<input type="number" id="shots" placeholder="Enter Shots" />
+							</div>
+							<div class="form-group">
+									<label for="hits">Hits:</label><br />
+									<input type="number" id="hits" placeholder="Enter Hits" />
+							</div>
+							<div class="form-group">
+									<label for="plusMinus">Plus/Minus:</label><br />
+									<input type="number" id="plusMinus" placeholder="Enter +/-" />
+							</div>
+							<div class="form-group">
+									<label for="blockedShots">Blocked Shots:</label><br />
+									<input type="number" id="blockedShots" placeholder="Enter BS" />
+							</div>
+							<div class="form-group">
+									<label for="ppPoints">Power Play Points:</label><br />
+									<input type="number" id="ppPoints" placeholder="Enter PP Points" />
+							</div>
+							<div class="form-group">
+									<label for="shPoints">Short-Handed Points:</label><br />
+									<input type="number" id="shPoints" placeholder="Enter SH Points" />
+							</div>
+							<div class="form-group">
+									<button onclick="calculateFantasyPoints()">Calculate Points</button>
+							</div>
+							<div class="result" id="result"></div>
+						</section>
+        </aside>
+    </div>
+
+		<div class="footer">
+				<p>2024 PWHL Fantasy League. Ryan Leonard.</p>
+		</div>
+<script src="calculator.js"></script>
+
+  </body>
+  </html>

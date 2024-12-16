@@ -1,0 +1,139 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="PWHL Fantasy" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>PWHL Fantasy - Home</title>
+		<link href="pwhl.css" type="text/css" rel="stylesheet" />
+
+	</head>
+	<body>
+    <div class="header">
+        <h1>PWHL Fantasy League</h1>
+		</div>
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="rules.html">Rules</a>
+        <a href="standings.html">Standings</a>
+        <a href="statistics.html">Statistics</a>
+    </div>
+
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade">
+		    <div class="numbertext">1 / 3</div>
+		    <img src="img1.png" alt="Photo of all 6 PWHL Home Jerseys"style="width:100%" />
+		  </div>
+
+		  <div class="mySlides fade">
+		    <div class="numbertext">2 / 3</div>
+		    <img src="img2.png" alt="Photo of players wearing new jerseys"style="width:100%" />
+		  </div>
+
+		  <div class="mySlides fade">
+		    <div class="numbertext">3 / 3</div>
+		    <img src="img3.png" alt="Photo of opening puck drop of 2023 season"style="width:100%" />
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br />
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+    <div class="container">
+        <div class="main">
+            <section class="about">
+						<h2>Welcome to the PWHL Fastasy League</h2>
+						<p>This website was created as a personal project to spark interest and encourage my sister to engage with the Professional Women’s Hockey League (PWHL). As passionate fans of hockey, I wanted to make the league more interactive and fun by building a custom fantasy league platform. All the player stats and data are meticulously calculated using R, a statistical programming language, and managed through a comprehensive Google Sheets spreadsheet. This combination of tools ensures the league is both dynamic and easy to manage, bringing together the excitement of hockey and the fun of friendly competition.</p>
+						</section>
+						<section class="matchups-container">
+							<h2>Round 1</h2>
+							<div class="matchup" id="matchup1">
+								<div class="team">
+									<span class="team-name" id="team1">Spiders</span>
+									<span class="score" id="score1">96.3</span>
+								</div>
+								<div class="team">
+									<span class="team-name" id="team2">Moose</span>
+									<span class="score" id="score2">105.2</span>
+								</div>
+							</div>
+							<div class="matchup" id="matchup2">
+								<div class="team">
+									<span class="team-name" id="team3">Huggy Bears</span>
+									<span class="score" id="score3">113.7</span>
+								</div>
+								<div class="team">
+									<span class="team-name" id="team4">Runners</span>
+									<span class="score" id="score4">91.8</span>
+								</div>
+							</div>
+						</section>
+							<section class="news-feed">
+							<h2>Latest PWHL News</h2>
+							<div class="elfsight-app-da429562-8fb2-47f8-b56c-6fa4d8cc3beb"></div>
+							<!--? Script from Elfsite?-->
+						</section>
+        </div>
+
+        <aside class="sidebar">
+            <section id="countdown">
+							<div>
+							<div><h2>End of Season</h2></div>
+
+							<div class="cd-subtitle">Ottawa @ Toronto</div>
+							<div class="cd-subtitle">May 3, 2025, 7pm EST</div>
+							</div>
+
+							<div class="cd-countdown">
+							<div class="cd-digit" data-tad-bind="days">
+							<div class="cd-digit-number" id="cd_days">00</div>
+							<div class="cd-digit-label" id="cd_days_label">DAYS</div>
+							</div>
+							<div class="cd-digit" data-tad-bind="hours">
+							<div class="cd-digit-number" id="cd_hours">00</div>
+
+							<div class="cd-digit-label" id="cd_hours_label">HRS</div>
+							</div>
+
+							<div class="cd-digit" data-tad-bind="minutes">
+							<div class="cd-digit-number" id="cd_minutes">00</div>
+
+							<div class="cd-digit-label" id="cd_minutes_label">MINS</div>
+							</div>
+
+							<div class="cd-digit" data-tad-bind="seconds">
+							<div class="cd-digit-number" id="cd_seconds">00</div>
+
+							<div class="cd-digit-label" id="cd_seconds_label">SECS</div>
+							</div>
+							</div>
+						</section>
+            <section id="social">
+							<a class="twitter-timeline" data-height="500" href="https://twitter.com/thepwhlofficial?ref_src=twsrc%5Etfw">Tweets by thepwhlofficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<!--? Script from https://publish.twitter.com/?maxheight=500&query=https://x.com/thepwhlofficial&widget=Timeline ?-->
+						</section>
+        </aside>
+    </div>
+
+    <div class="footer">
+        <p>2024 PWHL Fantasy League. Ryan Leonard.</p>
+    </div>
+		<script src="slideshow.js"></script>
+		<script src="countdown.js"></script>
+		<script src="https://static.elfsight.com/platform/platform.js"></script>
+</body>
+</html>
